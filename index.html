@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Ayusha</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+    <!-- box icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <a href="#" class="logo"><img src="image/logo.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#Home" class="active">Главная</a>
+            <a href="#about">Обо мне</a>
+            <a href="#Services">Услуги</a>
+            <a href="#Portfolio">Портфолио</a>
+            <a href="#Contact">Контакты</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home start -->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Привет! Я</h3>
+            <h1>Аюша</h1>
+            <p>#разработка сайтов любой сложности #продвижение сайта #сайт под ключ #оформление дизайна
+                #бесплатная консультация</p>
+            <div class="social-media">
+                <a href="https://vk.com/matr14"><i class='bx bxl-vk'></i></a>
+                <!-- <a href="#"><i class='bx bxl-instagram'></i></a> -->
+                <a href="https://t.me/Ashysha"><i class='bx bxl-telegram'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=79148759543"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+    
+            <a href="#Contact" class="btn">Получить консультацию</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Веб разработка</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Веб-раскрутка</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Веб-Дизайнер</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Продвижение</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="image/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Обо <span>Мне</span></h2>
+            <h3>Помогаю бизнесу расти!</h3>
+            <p>Я имею опыт в создании и продвижении веб-сайтов, а также в дизайне. Моя цель - помочь вам достичь успеха в онлайн-мире и сделать ваш проект успешным. Свяжитесь со мной, чтобы узнать, как я могу вам помочь.</p>
+            <a href="#Contact" class="btn">Связаться</a>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="Services">
+        <h2 class="heading">Mои <span>Услуги</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-receipt'></i>
+                <h3>LANDING PAGE</h3>
+                <p>Одностраничный сайт от 4 -х блоков. Оптимальный вариант для продажи нескольких товаров или услуг.</p>
+                <p>Cрок создания: от 5 дней</p>
+                <p class="main">Цена: от 10 000 руб</p>
+
+                <a href="#Contact" class="btn">Получить консультацию</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-school'></i>
+                <h3>КОРПОРАТИВНЫЙ САЙТ</h3>
+                <p>Онлайн-ресурс, содействующий росту продаж, привлечению клиентов и развитию бизнеса.</p>
+                <p>Cрок создания: от 10 дней</p>
+                <p class="main">Цена: от 15 000 руб</p>
+
+                <a href="#Contact" class="btn">Получить консультацию</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-store-alt'></i>
+                <h3>ИНТЕРНЕТ-МАГАЗИН</h3>
+                <p>Направлен на продаже товаров через интернет. Наличие всего необходимого функционала.</p>
+                <p>Cрок создания: от 20 дней</p>
+                <p class="main">Цена: от 30 000 руб</p>
+
+                <a href="#Contact" class="btn">Получить консультацию</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="Portfolio">
+        <h2 class="heading">Последние <span>Проекты</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет Ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="image/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Веб сайт</h4>
+                    <p>Тут будет ваш сайт</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <div class="testimonial-container">
+        <h2 class="heading">Ваши <span>Отзывы</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slider swiper-slide">
+                        <img src="image/review.png" alt="">
+                        <h3>Алексей</h3>
+                        <p>Сотрудничество с Аюшей было крутым. Он предоставил нам отличное обслуживание по доступным ценам. Наш сайт стал нашим лучшим активом, и продвижение сэкономило нам много средств. Рекомендуем всем своим друзьям!</p>
+                    </div>
+                    <div class="testimonial-slider swiper-slide">
+                        <img src="image/review.png" alt="">
+                        <h3>Юрий Кузнецов</h3>
+                        <p>Лучшее сочетание качества и низких цен. Мы заказали полный цикл услуг: разработку сайта, продвижение и дизайн. Все было выполнено отлично, и цены оказались гораздо ниже, чем у других. Мы рады сотрудничеству и планируем возвращаться для будущих проектов.</p>
+                    </div>
+                    <div class="testimonial-slider swiper-slide">
+                        <img src="image/review.png" alt="">
+                        <h3>Сэлмэг</h3>
+                        <p>Обратилась по рекомендациям и не пожалела. Аюша разработал уникальный дизайн, продвинул сайт и сделал это по низким ценам. Рекомендую!</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- contact -->
+
+    <section class="contact" id="Contact">
+        <h2 class="heading">Обратная <span>связь</span></h2>
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Имя">
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="+7(___)___-__-__" pattern="[0-9]+" required>
+            </div>
+            <div class="input-box">
+                <textarea name="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            </div>
+            <input type="submit" value="Получить консультацию" class="btn">
+        </form>
+    </section>
+    
+    
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Ayusha | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(95523548, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/95523548" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
